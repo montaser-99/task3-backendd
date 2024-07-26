@@ -1,0 +1,149 @@
+body {
+  background-image: url(../images/pexels-photo-791763.webp);
+  background-size: cover;
+  position: relative;
+  font-family: "pt-sans", sans-serif;
+  text-transform: capitalize;
+}
+/* h2{background-color: rgb(255, 179, 0);
+    margin-top: 100px; */
+/* color: black;} */
+.home {
+  width: 80%;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgba(80, 76, 76, 0.7);
+  transform: translate(-50%, -50%);
+}
+.home h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+.sur-title {
+  color:FF8225;
+  font-size:50px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 30px;
+}
+.container div {
+  background-color: #b2afb7;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+}
+.num {
+  width: 120px;
+  height: 120px;
+  border-color: rgb(5, 2, 16);
+  border-radius: 50%;
+  color: rgb(5, 5, 5);
+  margin: auto;
+  margin-top: 50px;
+}
+.nn {
+  font-size: 40px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.img1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.team-info {
+  margin-top: 250px;
+}
+.about-title {
+  color:FF8225;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+}
+.about-info {
+  width: 700px;
+  height: 300px;
+  background-color: rgba(79, 74, 74, 0.7);
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 90px;
+  text-align: center;
+}
+.about-info {
+  padding-top: 20px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.contact-title {
+  color:FF8225;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+}
+.contact-info {
+  width: 700px;
+  height: 300px;
+  background-color: rgba(79, 74, 74, 0.7);
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 90px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-info {
+  padding-top: 20px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.header1 {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: azure;
+  position: fixed;
+  opacity: 0.7;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.footer1 {
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 100px;
+  border-radius: 30px;
+  background-color: azure;
+  margin: auto;
+  margin-left: 100px;
+  position: fixed;
+  opacity: 0.5;
+}
+.i {
+  color:rgb(246, 255, 0) ;
+  
+  position: absolute;
+  left: 50px;
+  font-size: 40px;
+}
